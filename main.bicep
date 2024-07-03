@@ -109,7 +109,7 @@ resource acrPrivateDNSZoneGroup 'Microsoft.Network/privateEndpoints/privateDnsZo
     ]
   }
 }
-resource containerRegistry 'Microsoft.ContainerRegistry/registries@2023-06-01-preview' = {
+resource containerRegistry 'Microsoft.ContainerRegistry/registries@2023-11-01-preview' = {
   name: acrName
   location: location
   sku: {
